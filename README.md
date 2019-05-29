@@ -13,6 +13,11 @@ not recommend using it for anything serious.
  - No persistance (all computer contents is lost on world unload).
 
 ## Usage
+ - Grab the `.mcaddon` file from the releases page.
+ - Double click it to load it into Minecraft. Make sure you're on the latest 
+   beta (1.12.0.6).
+ - Create a new world, enable experimental options and add the CC:T behaviour and
+   resource packs.
 
 ## Building
 Building CC:TBE is a little painful, though most tasks only need to be run once.
