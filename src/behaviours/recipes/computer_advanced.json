@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "computercraft:computer_advanced"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "###",
+      "#R#",
+      "#G#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stone"
+      },
+      "G": {
+        "item": "minecraft:glass_pane"
+      },
+      "R": {
+        "item": "redstone"
+      }
+    },
+    "result": {
+      "item": "computercraft:computer_advanced"
+    }
+  }
+}

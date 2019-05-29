@@ -1,0 +1,38 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "computer_advanced_side": {
+      "textures": [
+        "textures/blocks/computer_advanced_side"
+      ]
+    },
+    "computer_advanced_top": {
+      "textures": [
+        "textures/blocks/computer_advanced_top"
+      ]
+    },
+    "computer_advanced_front_blink": {
+      "textures": [
+        "textures/blocks/computer_advanced_front_on"
+      ]
+    },
+    "computer_normal_side": {
+      "textures": [
+        "textures/blocks/computer_normal_side"
+      ]
+    },
+    "computer_normal_top": {
+      "textures": [
+        "textures/blocks/computer_normal_top"
+      ]
+    },
+    "computer_normal_front_blink": {
+      "textures": [
+        "textures/blocks/computer_normal_front_on"
+      ]
+    }
+  }
+}

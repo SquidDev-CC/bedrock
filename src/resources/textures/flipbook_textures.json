@@ -1,0 +1,14 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/computer_advanced_front_blink",
+    "atlas_tile": "computer_advanced_front_blink",
+    "ticks_per_frame": 8,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/computer_normal_front_blink",
+    "atlas_tile": "computer_normal_front_blink",
+    "ticks_per_frame": 8,
+    "blend_frames": false
+  }
+]

@@ -1,0 +1,5 @@
+tile.computercraft:computer_advanced.name=Advanced Computer
+tile.computercraft:computer_normal.name=Computer
+
+item.computercraft:computer_advanced.name=Advanced Computer (broken, use /setblock instead)
+item.computercraft:computer_normal.name=Computer (broken, use /setblock instead)

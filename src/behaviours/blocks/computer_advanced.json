@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "computercraft:computer_advanced",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:loot": {
+        "table": "loot_tables/blocks/computer_advanced.json"
+      },
+      "minecraft:destroy_time": {
+        "value": 3
+      },
+      "minecraft:explosion_resistance": {
+        "value": 3
+      },
+      "minecraft:flammable": {
+        "flame_odds": 10,
+        "burn_odds": 10
+      }
+    }
+  }
+}

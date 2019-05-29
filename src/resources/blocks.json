@@ -1,0 +1,29 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "computercraft:computer_advanced": {
+    "textures": {
+      "up": "computer_advanced_top",
+      "down": "computer_advanced_top",
+      "north": "computer_advanced_side",
+      "south": "computer_advanced_side",
+      "east": "computer_advanced_side",
+      "west": "computer_advanced_front_blink"
+    },
+    "sound": "metal"
+  },
+  "computercraft:computer_normal": {
+    "textures": {
+      "up": "computer_normal_top",
+      "down": "computer_normal_top",
+      "north": "computer_normal_side",
+      "south": "computer_normal_side",
+      "east": "computer_normal_side",
+      "west": "computer_normal_front_blink"
+    },
+    "sound": "metal"
+  }
+}

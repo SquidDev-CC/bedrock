@@ -1,0 +1,15 @@
+/build
+/node_modules
+/.vscode
+/src/resources/experimental_ui/fonts/
+/.rpt2_cache
+
+# Exclude generated sources
+*.js
+/src/resources/experimental_ui/generated.css
+/src/resources/experimental_ui/images/*.png
+
+# And include some useful ones
+!/src/resources/experimental_ui/UIEngine.js
+!/src/resources/experimental_ui/images/term_font.png
+!/src/resources/experimental_ui/images/term_font_hd.png

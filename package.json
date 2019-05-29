@@ -1,0 +1,27 @@
+{
+  "name": "cc-win10",
+  "version": "1.0.0",
+  "description": "ComputerCraft ported to Minecraft Windows 10 Edition",
+  "scripts": {
+    "tsc": "tsc --project .",
+    "tslint": "tslint --project .",
+    "rollup": "rollup -c",
+    "watch": "rollup -c --watch",
+    "find-bad-imports": "grep -rE \"/(client|server|ui)/\" src/computercraft || true"
+  },
+  "type": "module",
+  "keywords": [
+    "minecraft",
+    "computercraft",
+    "lua"
+  ],
+  "author": "SquidDev",
+  "license": "MIT",
+  "devDependencies": {
+    "jimp": "^0.6.4",
+    "rollup": "^1.12.4",
+    "rollup-plugin-typescript2": "^0.21.1",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
+  }
+}

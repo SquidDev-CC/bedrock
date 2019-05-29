@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "MinecraftTen";
+  src: url("fonts/MinecraftTen.otf");
+}
+
+* {
+  font-family: "MinecraftTen"
+}
+
+.screenBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.computer-wrapper { border-spacing: 0; }
+
+.computer-wrapper.computer-normal .border-cell { background-image: url("images/corners_normal.png"); }
+.computer-wrapper.computer-advanced .border-cell { background-image: url("images/corners_advanced.png"); }
+
+.border-cell {
+    background-size: 512px 512px;
+    image-rendering: optimizespeed;
+    border: 0; padding: 0; margin: 0;
+}
+
+.border-row {
+    display: flex;
+}
+
+/*
+ * So ideally we'd do this sanely. I said ideally - it turns out width: 100% doesn't
+ * work especially well (fills the whole page), and so we hard-code the width
+ */
+.border-cell-tl { width: 24px; height: 24px; background-position: -24px -56px; }
+.border-cell-t  { width: 620px; height: 24px; background-position: 0px 0px; }
+.border-cell-tr { width: 24px; height: 24px; background-position: -48px -56px; }
+
+.border-cell-l { width: 24px; background-position: 0px -56px; }
+.border-cell-r { width: 24px; background-position: -72px -56px; }
+
+.border-cell-bl { width: 24px; height: 24px; background-position: -24px -80px; }
+.border-cell-b  { width: 620px; height: 24px; background-position: 0px -24px; }
+.border-cell-br { width: 24px; height: 24px; background-position: -48px -80px; }
+
+.terminal-wrapper { padding: 4px; position: relative; }
+.terminal-cursor { position: absolute; }
+
+.terminal-canvas {
+    width: 612px;
+    height: 342px;
+
+    /* Display the whole thing as a flex box. yes, this is slow as hell */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.term-cell {
+    display: block;
+    margin: 0; padding: 0;
+    width: 12px; flex-basis: 12px;
+    height: 18px;
+    background-origin: border-box;
+}

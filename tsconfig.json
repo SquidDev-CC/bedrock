@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "esNext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "lib": ["es2015", "dom" ],
+    "newLine": "LF",
+    "outDir": "build/ts",
+    "baseUrl": ".",
+
+    "forceConsistentCasingInFileNames":true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "preserveWatchOutput": true
+  },
+  "include": [ "src/**/*.ts" ]
+}
