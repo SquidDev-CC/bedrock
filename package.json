@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "ComputerCraft ported to Minecraft Windows 10 Edition",
   "scripts": {
-    "tsc": "tsc --project .",
+    "tsc": "tsc --build .",
     "tslint": "tslint --project .",
     "rollup": "rollup -c",
     "watch": "rollup -c --watch",
-    "find-bad-imports": "grep -rE \"/(client|server|ui)/\" src/computercraft || true"
+    "find-bad-imports": "grep -rE \"/(client|server|ui)/\" src/computercraft || true",
+    "build": "npm run --silent tsc && npm run --silent tslint && npm run --silent rollup && node --experimental-modules build/ts/package.js"
   },
   "type": "module",
   "keywords": [
@@ -18,7 +19,9 @@
   "author": "SquidDev",
   "license": "MIT",
   "devDependencies": {
+    "@types/jszip": "^3.1.6",
     "jimp": "^0.6.4",
+    "jszip": "^3.2.1",
     "rollup": "^1.12.4",
     "rollup-plugin-typescript2": "^0.21.1",
     "tslint": "^5.16.0",

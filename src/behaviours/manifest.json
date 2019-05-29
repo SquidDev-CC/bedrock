@@ -2,33 +2,55 @@
   "format_version": 1,
   "header": {
     "description": "Provides programable computers for Minecraft. No turtles, no nothing!",
-    "name": "CC: Tweaked (Bedrock Edition)",
+    "name": "CC: Tweaked Bedrock Edition",
     "uuid": "27909f8b-42b5-4440-8d92-cc3923d6fc85",
-    "version": [0, 0, 1],
-    "min_engine_version" : [ 1, 12, 0 ]
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      12,
+      0
+    ]
   },
   "modules": [
     {
       "description": "CC: Tweaked server scripts",
       "type": "data",
       "uuid": "5ff44696-a154-4f64-9baa-fd4838600f9a",
-      "version": [0, 0, 1]
+      "version": [
+        0,
+        0,
+        1
+      ]
     },
     {
       "description": "CC: Tweaked client scripts",
       "type": "client_data",
       "uuid": "93ea9911-8582-44ba-8d8b-d40625a1b0e3",
-      "version": [0, 0, 1]
+      "version": [
+        0,
+        0,
+        1
+      ]
     }
   ],
   "dependencies": [
     {
       "uuid": "67d0a146-6523-4184-81d7-e87dc2414bd7",
-      "version": [0, 0, 1]
+      "version": [
+        0,
+        0,
+        1
+      ]
     }
   ],
   "metadata": {
-    "authors": ["SquidDev"],
+    "authors": [
+      "SquidDev"
+    ],
     "license": "MIT",
     "url": "https://github.com/SquidDev-CC"
   }

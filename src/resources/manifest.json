@@ -2,23 +2,33 @@
   "format_version": 1,
   "header": {
     "description": "Provides programable computers for Minecraft. No turtles, no nothing.",
-    "name": "CC: Tweaked (Bedrock Edition)",
+    "name": "CC: Tweaked Bedrock Edition",
     "uuid": "67d0a146-6523-4184-81d7-e87dc2414bd7",
-    "version": [0, 0, 1]
+    "version": [
+      0,
+      0,
+      1
+    ]
   },
   "modules": [
     {
       "description": "CC: Tweaked resources",
       "type": "resources",
       "uuid": "d0e79ac0-771c-46c5-a246-d574000b116f",
-      "version": [0, 0, 1]
+      "version": [
+        0,
+        0,
+        1
+      ]
     }
   ],
   "capabilities": [
     "experimental_custom_ui"
   ],
   "metadata": {
-    "authors": ["SquidDev"],
+    "authors": [
+      "SquidDev"
+    ],
     "license": "MIT",
     "url": "https://github.com/SquidDev-CC"
   }

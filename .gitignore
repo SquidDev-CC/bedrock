@@ -5,6 +5,7 @@
 /.rpt2_cache
 
 # Exclude generated sources
+*.mcaddon
 *.js
 /src/resources/experimental_ui/generated.css
 /src/resources/experimental_ui/images/*.png
